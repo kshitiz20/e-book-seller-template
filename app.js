@@ -45,6 +45,6 @@ app.post('/charge', (req, res)=>{
 
 })
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log(`Server is up and running at ${port}`);
 })
